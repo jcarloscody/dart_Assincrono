@@ -1,7 +1,7 @@
 void main() {
   //assincrono: vc starta processos em paralelo
   print("started process");
-  assincrono();
+  funcaoContendoAssincrono();
   var i = 100;
   while (i > 1) {
     print(i);
@@ -9,7 +9,7 @@ void main() {
   }
 }
 
-void assincrono() {
+void funcaoContendoAssincrono() {
   Future.delayed(Duration(seconds: 10), () {
     print("processo Future.delayed executado");
   });
