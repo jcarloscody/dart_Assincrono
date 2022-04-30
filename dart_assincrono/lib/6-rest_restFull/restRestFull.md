@@ -38,4 +38,4 @@ NO INVENTÁRIO.
 - 4xx erro no cliente
 - 5xx erro no server 
 
- - 
+# viacep.com.br/ws/cepdigitaaqui/json/
