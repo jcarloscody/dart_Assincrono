@@ -19,3 +19,4 @@ Usa o conceito de Fila onde dentro dele existem 2 tipos de filas:
   - deve ser uma execução muito rápida
 
 # Como funciona processos assíncronos com await
+- quando colocamos await estamos fazendo o programa esperar 
