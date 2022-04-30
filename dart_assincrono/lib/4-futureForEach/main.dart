@@ -1,6 +1,6 @@
 Future<void> main() async {
   //vamos executar vários processos async
-
+  print("Inicio main");
   var nomes = <String?>["josue", "carlos", "da", "silva", null];
 
   await Future.forEach<String?>(nomes, (nome) async {
@@ -16,7 +16,7 @@ Future<void> main() async {
   var nomesAwait = nomes.map((e) => saudacao(e)).toList();
   var nomesS = await Future.wait(nomesAwait);
 
-  print("FIM");
+  print("FIM main");
 }
 
 Future<String?> saudacao(String? nome) {
