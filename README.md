@@ -4,6 +4,8 @@ Neste repositório você irá encontrar conceitos relativos as funções assínc
 
 Comandos para iniciar:
 > dart create .
+
+| Plugin | README |
 | ----- | ----- |
 | [Preliminar Async] | exemplo preliminar de assincronismo |
 | [Future] | aqui vamos ver como funciona uma função assíncrona |
