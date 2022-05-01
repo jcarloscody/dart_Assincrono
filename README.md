@@ -2,10 +2,18 @@
 
 Neste repositório você irá encontrar conceitos relativos as funções assíncronas e suas diferenças com as funções síncronas, bem como práticas usando arquivos, arquitetura Rest e outros.
 
+
+Instalação do Dart
+> https://dart.dev/get-dart
 Comandos para iniciar:
 > dart create .
 
-| Plugin | README |
+Quando entrar na página respectiva
+> dart nomeDoArquivo.dart
+
+
+
+| Link | READ |
 | ----- | ----- |
 | [Preliminar Async] | exemplo preliminar de assincronismo |
 | [Future] | aqui vamos ver como funciona uma função assíncrona |
