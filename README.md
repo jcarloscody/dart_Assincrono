@@ -6,8 +6,8 @@ Neste repositório você irá encontrar conceitos relativos as funções assínc
 Instalação do Dart
 > https://dart.dev/get-dart
 
-Comandos para iniciar:
-> dart create .
+Comandos para resolver as dependências:
+> dart pub get
 
 Quando entrar na página respectiva
 > dart nomeDoArquivo.dart
