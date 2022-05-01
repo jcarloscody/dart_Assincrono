@@ -4,18 +4,18 @@ Neste repositório você irá encontrar conceitos relativos as funções assínc
 
 Comandos para iniciar:
 > dart create .
-
-| [Preliminar Async] | exemplo preliminar de assincronismo
-| [Future] | aqui vamos ver como funciona uma função assíncrona
-| [Async Await] | E quando queremos que uma função assíncrona trabalhe de forma síncrona o que devemos fazer?
-| [FutureForEach] | e quando queremos fazer um loop sobre um retorno de Future<List<T>>?
-| [EventLoop] | compreendendo a máquina do dart
-| [Rest] | compreendendo o rest
-| [CodigoTerceiro] | inserindo packages
-| [Http] | compreendendo o Http
-| [Modelos] | A melhor forma de tratar os responses das requests
-| [RepositoryP] | Como devemos organizar os trabalhos
-| [ReadArquivos] | trabalhando com read/write de arquivos
+| ----- | ----- |
+| [Preliminar Async] | exemplo preliminar de assincronismo |
+| [Future] | aqui vamos ver como funciona uma função assíncrona |
+| [Async Await] | E quando queremos que uma função assíncrona trabalhe de forma síncrona o que devemos fazer? |
+| [FutureForEach] | e quando queremos fazer um loop sobre um retorno de Future<List<T>>? |
+| [EventLoop] | compreendendo a máquina do dart |
+| [Rest] | compreendendo o rest |
+| [CodigoTerceiro] | inserindo packages |
+| [Http] | compreendendo o Http |
+| [Modelos] | A melhor forma de tratar os responses das requests |
+| [RepositoryP] | Como devemos organizar os trabalhos |
+| [ReadArquivos] | trabalhando com read/write de arquivos |
 
 
 
