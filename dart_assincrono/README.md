@@ -1,2 +1,4 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+# Dart Assíncrono
+
+Neste repositório você irá encontrar conceitos relativos as funções assíncronas e suas diferenças com as funções síncronas, bem como práticas usando arquivos, arquitetura Rest e outros.
+
