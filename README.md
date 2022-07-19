@@ -2,6 +2,21 @@
 
 Neste repositório você irá encontrar conceitos relativos as funções assíncronas e suas diferenças com as funções síncronas, bem como práticas usando arquivos, arquitetura Rest e outros.
 
+> os processos assincronos são os processos mais custosos, onde vc tem um processamento maior, onde vc demanda maior estrutura de uma máquina. leitura de um dado no backend, no bd, leitura/escrita de arquivo, 
+
+<br/>
+<br/>
+
+> Future - é como um promessa de retorno. pode ser erro ou valor.
+- Status    
+  - Completo:
+    - com valor: then.
+    - com error: onError, catchError
+  - Incompleto:
+  - whenComplete: é o finally do try/catch
+
+<br/>
+<br/>
 
 Instalação do Dart
 > https://dart.dev/get-dart

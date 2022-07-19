@@ -10,6 +10,7 @@ void main() {
 }
 
 void funcaoContendoAssincrono() {
+  //tudo que é assincrono no DART, é representado pela class Future
   Future.delayed(Duration(seconds: 10), () {
     print("processo Future.delayed executado");
   });

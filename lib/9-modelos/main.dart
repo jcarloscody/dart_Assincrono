@@ -1,9 +1,9 @@
 import 'dart:convert';
 
-import 'package:dart_assincrono/9-modelos/usuario.dart';
 import 'package:http/http.dart' as http;
 
 import 'cidade.dart';
+import 'usuario.dart';
 
 void main() async {
   int cep = 55870000;

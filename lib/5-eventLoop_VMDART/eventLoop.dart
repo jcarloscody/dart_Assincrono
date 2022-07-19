@@ -4,9 +4,10 @@ import 'dart:async';
 void main() {
   print("Início main"); //como a main é principal, primeiro executa a main
 
-  scheduleMicrotask(() => print("microtask #1")); //depois executa esta
+  scheduleMicrotask(() => print(
+      "microtask #1")); //depois DE executar a microtask principal, main, então vai para a próxima microtask
 
-//depois do microTask começa a execução desta, Event
+  //depois do microTask começa a execução desta, Event
   Future.delayed(
     Duration(seconds: 1),
     () => print(
@@ -32,4 +33,5 @@ void main() {
  * Main
  * Microtask #1
  * Microtask #2
+ * agora vem os events
  */

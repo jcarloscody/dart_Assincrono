@@ -1,5 +1,6 @@
-import 'package:dart_assincrono/10-repository_pattern/models/cidade.dart';
 import 'package:http/http.dart';
+
+import '../models/cidade.dart';
 
 class CidadeRepository {
   Future<Cidade> pegandoCep(url) async {

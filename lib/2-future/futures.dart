@@ -1,5 +1,5 @@
 void main() {
-  //status ->> Incompleto, Concluido(com valor, com error)
+  //status ->> Incompleto, Concluido(com valor ou com error)
   //concluido com valor - then
   //concluido com erro - OnError ou CatchError
   //sempre executado - whenComplete
@@ -12,7 +12,7 @@ void main() {
       .then(
         (value) => print(value),
       )
-      .onError(
+      .catchError(
         (error, stackTrace) => print(error),
       );
 

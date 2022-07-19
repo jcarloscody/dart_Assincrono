@@ -1,6 +1,6 @@
-import 'package:dart_assincrono/10-repository_pattern/repositories/cidade_repository.dart';
+import 'repositories/cidade_repository.dart';
 
-void main() async {
+Future<void> main() async {
   int cep = 55870000;
   var url = "https://viacep.com.br/ws/${cep}/json";
 

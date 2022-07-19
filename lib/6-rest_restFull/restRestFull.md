@@ -7,8 +7,7 @@
 
 # Características
 Cliente-servidor:
-- Os aplicativos REST têm um servidor que gerencia os dados e o estado do aplicativo. O servidor se
-se comunica com um cliente que lida com as interações do usuário. 
+- Os aplicativos REST têm um servidor que gerencia os dados e o estado do aplicativo. O servidor se comunica com um cliente que lida com as interações do usuário. 
 Stateless:
  - Os servidores não mantêm nenhum estado de cliente. Os clientes gerenciam o estado do aplicativo.
  Seus pedidos aos servidores contêm todas as informações necessárias para processá-los.

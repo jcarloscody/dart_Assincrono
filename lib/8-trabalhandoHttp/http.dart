@@ -1,7 +1,7 @@
 import 'package:http/http.dart' as http;
 import 'dart:convert' as convert;
 
-void main() async {
+Future<void> main() async {
   int cep = 55870000;
   //var url = "https://viacep.com.br/ws/${cep}/json";
   var url = "https://jsonplaceholder.typicode.com/posts/";

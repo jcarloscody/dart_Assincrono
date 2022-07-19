@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:dart_assincrono/9-modelos/user_types.dart';
+import 'user_types.dart';
 
 class Usuario {
   final String id;
