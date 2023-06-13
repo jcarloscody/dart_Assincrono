@@ -1,6 +1,20 @@
-# Dart Assíncrono
+# [Dart Assíncrono](https://www.linkedin.com/feed/update/urn:li:activity:7066097133195603968/)
 
-Neste repositório você irá encontrar conceitos relativos as funções assíncronas e suas diferenças com as funções síncronas, bem como práticas usando arquivos, arquitetura Rest e outros.
+### Concorrência - Thread
+- quando temos um ou mais processos diferentes  que podem ser executados no mesmo espaço de tempo.
+- os pc mais antigos tinham apenas um core, ou seja, conseguiam trabalhar apenas com uma thread, 
+- Problemas :
+  - memória compartilhada, várias threads acessa/modifica o mesmo endereço de memória
+  - concorrencia
+
+## [Isolate](https://www.linkedin.com/feed/update/urn:li:activity:7066097133195603968/)
+- Dart é single-thread, rodando em uma só thread ou melhor isolate
+- é semelhante a thread, porém com diferença de ter uma pilha de memória única e não pode ser acessado por outro isolate.
+  
+  <br/>
+  <br/>
+  <br/>
+  Neste repositório você irá encontrar conceitos relativos as funções assíncronas e suas diferenças com as funções síncronas, bem como práticas usando arquivos, arquitetura Rest e outros.
 
 > os processos assincronos são os processos mais custosos, onde vc tem um processamento maior, onde vc demanda maior estrutura de uma máquina. leitura de um dado no backend, no bd, leitura/escrita de arquivo, 
 
