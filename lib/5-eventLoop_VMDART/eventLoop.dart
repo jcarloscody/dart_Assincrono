@@ -1,13 +1,10 @@
-//void main - já é uma microTask - como ela é a primeira a ser executada, tem alta prioridade.
 import 'dart:async';
 
 void main() {
   print("Início main"); //como a main é principal, primeiro executa a main
 
-  scheduleMicrotask(() => print(
-      "microtask #1")); //depois DE executar a microtask principal, main, então vai para a próxima microtask
+  scheduleMicrotask(() => print("microtask #1"));
 
-  //depois do microTask começa a execução desta, Event
   Future.delayed(
     Duration(seconds: 1),
     () => print(
@@ -22,16 +19,11 @@ void main() {
 }
 
 /**
- * EVENT
- * Future.delayed
- * Future #2
- * Future #3
- */
-
-/**
- * MicroTask
- * Main
- * Microtask #1
- * Microtask #2
- * agora vem os events
+Início main
+Fim main
+microtask #1
+microtask #2
+Future #2 
+Future #3 
+Future #1 delayed  (obs: está executando por último pq tem um delayed de 1s)
  */
